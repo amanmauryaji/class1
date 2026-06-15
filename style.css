@@ -1,0 +1,11 @@
+.red{
+    color: #3636be;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* font-size: 20px; */
+}
+h1{
+    color: rgb(4, 4, 31);
+}
