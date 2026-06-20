@@ -1,0 +1,16 @@
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: #b97ef0;
+    margin: 100px auto;
+    transition: .3s;
+}
+.a:hover{
+    transform: translateX(100px);
+    transform: translateY(100px);
+    transform: scale(1.4);
+    transform: rotate(36deg);
+    transform: skew(50deg);
+    transform: scaleX(3);
+    transform: scaleY(3);
+}

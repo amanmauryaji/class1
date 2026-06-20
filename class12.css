@@ -1,0 +1,56 @@
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 148, 59);
+    margin: 20px auto;
+    animation: anim 8s infinite;
+}
+body{
+    background-color: #3e0505;
+}
+@keyframes anim {
+    0%{
+        background-color: aquamarine;
+        transform: rotate(90deg);
+    }
+     10%{
+        background-color: #b50b0b;
+        transform: rotate(-90deg);
+    }
+     20%{
+        background-color: #b0bc0c;
+        transform: rotate(90deg);
+    }
+     30%{
+        background-color: aquamarine;
+        transform: rotate(-90deg);
+    }
+     40%{
+        background-color: #0a9e28;
+        transform: rotate(90deg);
+    }
+     50%{
+        background-color: #2c57cd;
+        transform: rotate(-90deg);
+    }
+     60%{
+        background-color: aquamarine;
+        transform: rotate(90deg);
+    }
+     70%{
+        background-color: aquamarine;
+        transform: rotate(-90deg);
+    }
+     80%{
+        background-color: aquamarine;
+        transform: rotate(90deg);
+    }
+     90%{
+        background-color: aquamarine;
+        transform: rotate(-90deg);
+    }
+     100%{
+        background-color: aquamarine;
+        transform: rotate(90deg);
+    }
+}

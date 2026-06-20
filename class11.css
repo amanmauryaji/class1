@@ -1,0 +1,17 @@
+.a{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation-name: anim;
+    animation-duration: 3s;
+
+}
+
+@keyframes anim {
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: black;
+    }
+}
